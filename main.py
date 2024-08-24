@@ -24,7 +24,7 @@ def main():
     regularContenFiller.fill_regular_content()
     exporter.export_from_json_to_excel()
 
-    #shutil.rmtree("output_data")
+    shutil.rmtree("output_data")
 
     root = tk.Tk()
     root.withdraw()  # Скрываем основное окно
